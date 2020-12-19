@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "vazir";
+    src:url("../font/vazir.eot");
+
+    src: url("../font/vazir.eot?#iefix")format("embedded-opentype"),
+    url("../font/vazir.woff2")format("woff2"),
+    url("../font/vazir.woff")format("woff"),
+    url("../font/vazir.ttf")format("truetype");
+}
+
+
+body{
+    direction: rtl;
+    text-align: right !important;
+    font-family: "vazir";
+    line-height: 1.6;
+    background: #fff;
+}
+
+.wb-bg-banner{
+    height: 100vh;
+    background: #204051;
+    background: -webkit-linear-gradient(
+    to left,
+    #84a9ac,
+    #3b6978,
+    #204051
+    );
+
+    background: linear-gradient(
+    to left,
+    #84a9ac,
+    #3b6978,
+    #204051
+    );
+
+}
+
